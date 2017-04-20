@@ -1,0 +1,48 @@
+*,*:after,*:before{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0px;
+	background: #f3f3f3;
+	font-family: 'Quicksand';
+	color: #333333;
+}
+
+header{
+	height: 60px;
+	background: #2c3e50;
+}
+
+nav{
+	margin:0px auto;
+	width: 100%;
+	max-width: 1170px;
+}
+
+#hero{
+	height:300px;
+	width: 100%;
+	background-color: #34495e;
+	color:#ffffff;
+}
+
+#hero h1{
+	margin:0px auto;
+	text-align: center;
+	line-height: 300px;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 100%;
+	max-width: 1170px;
+	margin:0px auto;
+	font-size: 13px;
+}
+
+.container h2{
+	text-transform: uppercase;
+	margin: 15px 0px;
+	font-size: 18px;
+}

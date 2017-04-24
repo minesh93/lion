@@ -1,5 +1,6 @@
 <?php
-	Theme::load(function(){
-		Theme::registerStyle('css/style.css');
-	});
+Theme::load(function(){
+	PostRegister::addPostMeta('page','test','meta/page.php');
+	Theme::registerStyle('css/style.css');
+});
 
